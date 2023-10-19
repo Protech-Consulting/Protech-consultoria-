@@ -1,0 +1,171 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("imagens/logo_protech_consulting_75porcent.png");
+    background: Cover;
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: #141517;
+
+}
+p{
+    color: #fff;
+    text-align: center;
+}
+
+.conteiner{
+    margin: auto;
+    width: 100%;
+    max-height: 350px;
+    position: relative;
+    color: #fff;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.conteiner img{
+    margin: auto;
+    width: 100%;
+    max-height: 350px;
+    object-fit: cover;
+    
+}
+.text_capa{
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    bottom: 0px;
+    
+}
+.descricao{
+    text-align: center;
+    color: #fff;
+    max-width: 60%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+nav a.links img{
+    width: 15%;
+}
+
+
+
+
+/*cods a baixo copy */
+
+
+header {
+    z-index: 1000;
+    top: 0;
+    position: sticky;
+}
+
+
+
+nav {
+    z-index:1000;
+    background-color: #10243b;
+    display: flex;
+    padding: 15px 0px;
+    box-shadow: 0 0 10px;
+    /* max-width: 85%;
+    paddin: 15px 10px;
+    border-radius: 0 0 75px 75px;
+    box-shadow: 1px 1px 12px 3px; */
+}
+
+nav a.links {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.25em;
+    transition: 0.25s;
+    text-decoration: none;
+    color: #F2F2F2;
+
+}
+
+nav a.links:hover {
+    transform: scale(1.10);
+    cursor: pointer;
+    text-decoration: underline;
+    transition: 0.25s;
+}
+
+footer {
+    box-shadow: 0 0 15px 2px;
+    background-color: #0f1011;
+    padding: 60px 0;
+    margin-top: 60px;
+}
+
+footer div#afiliados {
+    width: 30%;
+    padding: 25px 0;
+    text-align: center;
+}
+
+footer div#afiliados h2 {
+    font-size: 2rem;
+    font-family: 'Young Serif', serif
+}
+
+footer #campo_empresas_afiliadas {
+    margin: 25px auto;
+    width: 75%;
+    background-color: #10243b;
+    padding: 10px;
+    border-radius: 15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.empresa_afiliada {
+    margin: 20px auto;
+    width: 280px;
+    text-align: center;
+    display: flex;
+}
+
+.empresa_afiliada p {
+    font-size: 1.6em;
+    transition: 0.15s;
+}
+
+.empresa_afiliada p:hover {
+    cursor: pointer;
+    transform: scale(1.25);
+    transition: 0.25s;
+}
+
+h2 {
+    color: #F2F2F2;
+}
+
+footer #entre_em_contato {
+    margin-top: 80px;
+    text-align: center;
+    color: #4971A6;
+    text-shadow: 2px 2px 5px black;
+}
+
+footer #contatos {
+    background-color: #10243b;
+    border-radius: 15px;
+    margin: 10px auto;
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    text-align: center;
+}
+
+footer .nossos_contatos p {
+    margin: 10px 20px;
+}
+
